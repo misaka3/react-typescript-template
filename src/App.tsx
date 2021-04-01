@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import ProductPage from "./components/pages/ProductPage";
 import HomePage from "./components/pages/HomePage";
+import TextFields from "./components/pages/TextFields";
 
 const App: React.FC = () => {
   return (
     <Router>
       <Switch>
         <Route path="/products" component={ProductPage} exact />
+        <Route path="/text_fields" component={TextFields} exact />
         <Route path="/" component={HomePage} exact />
       </Switch>
     </Router>
