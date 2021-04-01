@@ -137,8 +137,8 @@ const Copyright = () => {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" to="/">
-        管理画面
+      <Link color="inherit" to="https://github.com/misaka3">
+        misaka3
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
