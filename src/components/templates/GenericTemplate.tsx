@@ -1,4 +1,5 @@
 import React from "react";
+import React from "react";
 import clsx from "clsx";
 import { createMuiTheme } from "@material-ui/core/styles";
 import * as colors from "@material-ui/core/colors";
@@ -226,12 +227,12 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                 <ListItemText primary="トップページ1" />
               </ListItem>
             </Link>
-            <Link to="/text_fields" className={classes.link}>
+            <Link to="/form_props_text_fields" className={classes.link}>
               <ListItem button>
                 <ListItemIcon>
                   <HomeIcon />
                 </ListItemIcon>
-                <ListItemText primary="テキストフィールド" />
+                <ListItemText primary="標準フォーム一覧" />
               </ListItem>
             </Link>
             <Link to="/products" className={classes.link}>

@@ -20,7 +20,7 @@ export default function FormPropsTextFields() {
 
   return (
     
-    <GenericTemplate title="テキストフィールド">
+    <GenericTemplate title="FormPropsTextFields">
       <form className={classes.root} noValidate autoComplete="off">
         <div>
           <TextField required id="standard-required" label="Required" defaultValue="Hello World" />
