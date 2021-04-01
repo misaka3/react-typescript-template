@@ -231,7 +231,7 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                 <ListItemIcon>
                   <HomeIcon />
                 </ListItemIcon>
-                <ListItemText primary="トップページ2" />
+                <ListItemText primary="テキストフィールド" />
               </ListItem>
             </Link>
             <Link to="/products" className={classes.link}>
