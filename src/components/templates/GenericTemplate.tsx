@@ -210,12 +210,28 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
           </div>
           <Divider />
           <List>
-            <Link to="/" className={classes.link}>
+          <Link to="/" className={classes.link}>
               <ListItem button>
                 <ListItemIcon>
                   <HomeIcon />
                 </ListItemIcon>
                 <ListItemText primary="トップページ" />
+              </ListItem>
+            </Link>
+            <Link to="/" className={classes.link}>
+              <ListItem button>
+                <ListItemIcon>
+                  <HomeIcon />
+                </ListItemIcon>
+                <ListItemText primary="トップページ1" />
+              </ListItem>
+            </Link>
+            <Link to="/text_fields" className={classes.link}>
+              <ListItem button>
+                <ListItemIcon>
+                  <HomeIcon />
+                </ListItemIcon>
+                <ListItemText primary="トップページ2" />
               </ListItem>
             </Link>
             <Link to="/products" className={classes.link}>
