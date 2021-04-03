@@ -234,12 +234,12 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                 <ListItemText primary="標準フォーム" />
               </ListItem>
             </Link>
-            <Link to="/products" className={classes.link}>
+            <Link to="/validation_text_fields" className={classes.link}>
               <ListItem button>
                 <ListItemIcon>
                   <ShoppingCartIcon />
                 </ListItemIcon>
-                <ListItemText primary="商品ページ" />
+                <ListItemText primary="バリデーションテキストフィールド" />
               </ListItem>
             </Link>
           </List>
