@@ -24,7 +24,7 @@ export default function MultilineTextFields() {
   };
 
   return (
-    <GenericTemplate title="BasicTextFields">
+    <GenericTemplate title="MultilineTextFields">
         <form className={classes.root} noValidate autoComplete="off">
         <div>
             <TextField
