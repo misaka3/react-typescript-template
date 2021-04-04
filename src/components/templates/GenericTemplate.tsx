@@ -242,6 +242,14 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                 <ListItemText primary="バリデーションテキストフィールド" />
               </ListItem>
             </Link>
+            <Link to="/multiline_text_fields" className={classes.link}>
+              <ListItem button>
+                <ListItemIcon>
+                  <ShoppingCartIcon />
+                </ListItemIcon>
+                <ListItemText primary="マルチラインテキストフィールド" />
+              </ListItem>
+            </Link>
           </List>
         </Drawer>
         <main className={classes.content}>

@@ -6,6 +6,7 @@ import HomePage from "./components/pages/HomePage";
 import BasicTextFieldsPage from "./components/pages/BasicTextFieldsPage";
 import FormPropsTextFieldsPage from "./components/pages/FormPropsTextFieldsPage";
 import ValidationTextFieldsPage from "./components/pages/ValidationTextFieldsPage";
+import MultilineTextFieldsPage from "./components/pages/MultilineTextFieldsPage";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
         <Route path="/basic_text_fields" component={BasicTextFieldsPage} exact />
         <Route path="/form_props_text_fields" component={FormPropsTextFieldsPage} exact />
         <Route path="/validation_text_fields" component={ValidationTextFieldsPage} exact />
+        <Route path="/multiline_text_fields" component={MultilineTextFieldsPage} exact />
         <Route path="/" component={HomePage} exact />
       </Switch>
     </Router>
