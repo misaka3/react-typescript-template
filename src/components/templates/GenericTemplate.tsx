@@ -250,6 +250,22 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                 <ListItemText primary="マルチラインテキストフィールド" />
               </ListItem>
             </Link>
+            <Link to="/select_text_fields" className={classes.link}>
+              <ListItem button>
+                <ListItemIcon>
+                  <ShoppingCartIcon />
+                </ListItemIcon>
+                <ListItemText primary="セレクトフィールド" />
+              </ListItem>
+            </Link>
+            <Link to="/input_with_icon" className={classes.link}>
+              <ListItem button>
+                <ListItemIcon>
+                  <ShoppingCartIcon />
+                </ListItemIcon>
+                <ListItemText primary="アイコン付きフォーム" />
+              </ListItem>
+            </Link>
           </List>
         </Drawer>
         <main className={classes.content}>
