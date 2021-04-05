@@ -266,6 +266,14 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                 <ListItemText primary="アイコン付きフォーム" />
               </ListItem>
             </Link>
+            <Link to="/input_adornments" className={classes.link}>
+              <ListItem button>
+                <ListItemIcon>
+                  <ShoppingCartIcon />
+                </ListItemIcon>
+                <ListItemText primary="装飾付きフォーム" />
+              </ListItem>
+            </Link>
           </List>
         </Drawer>
         <main className={classes.content}>
