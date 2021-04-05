@@ -64,7 +64,7 @@ export default function InputAdornments() {
   };
 
   return (
-    <GenericTemplate title="BasicTextFields">
+    <GenericTemplate title="InputAdornments">
       <div className={classes.root}>
         <div>
           <TextField
