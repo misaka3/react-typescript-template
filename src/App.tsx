@@ -8,6 +8,7 @@ import FormPropsTextFieldsPage from "./components/pages/FormPropsTextFieldsPage"
 import ValidationTextFieldsPage from "./components/pages/ValidationTextFieldsPage";
 import MultilineTextFieldsPage from "./components/pages/MultilineTextFieldsPage";
 import SelectTextFieldsPage from "./components/pages/SelectTextFieldsPage";
+import InputWithIconPage from "./components/pages/InputWithIconPage";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Route path="/validation_text_fields" component={ValidationTextFieldsPage} exact />
         <Route path="/multiline_text_fields" component={MultilineTextFieldsPage} exact />
         <Route path="/select_text_fields" component={SelectTextFieldsPage} exact />
+        <Route path="/input_with_icon" component={InputWithIconPage} exact />
         <Route path="/" component={HomePage} exact />
       </Switch>
     </Router>
